@@ -1,0 +1,40 @@
+@media screen and (max-width:450px) {
+    .logo{
+        font-size: 1.5em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+     h2{
+        font-size: 1em;
+        margin: auto 1em;
+    }
+
+    .img-from{
+        display: none;
+    }
+
+    .box-form{
+        justify-content: center;
+        height: 300px;
+        margin: 5em 1em;
+    }
+
+    .form{
+        align-items: center;
+    }
+    .box-input{
+        width: 90%;
+    }
+    .input-form-cep{
+        width: 100%;
+    }
+    .card-info-endereco{
+        margin: 0px 1em;
+    }
+    
+    #map{
+        margin: 1em 1em;
+    }
+}

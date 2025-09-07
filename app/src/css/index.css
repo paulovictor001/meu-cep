@@ -139,7 +139,7 @@ h2{
     width: 200px;
 }
 
-.info_enderoco label{
+.info_enderoco label,h2{
     color: #3C66E6;
     font-weight: bold;
 }
@@ -178,19 +178,4 @@ h2{
     height: 500px;
     max-width: 1000px;
     margin:1em auto;
-}
-
-
-
-@media screen and (max-width:760px) {
-    .box-form{
-        flex-direction: column;
-    }
-
-    .form{
-        width: 100%;
-    }
-    /* .input-form-cep{
-        max-width: ;
-    } */
 }

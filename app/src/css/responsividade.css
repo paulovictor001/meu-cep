@@ -23,6 +23,7 @@
 
     .form{
         align-items: center;
+        width: 100%;
     }
     .box-input{
         width: 90%;

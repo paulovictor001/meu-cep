@@ -16,9 +16,10 @@ const divmap = document.getElementsByClassName("box-map")
 
 
 form.addEventListener("submit", async (event)=>{
+    
     event.preventDefault();
 
-    const cep = document.getElementById("icep").value
+    const cep = document.getElementById("icep").value;
     
     if (!isValidCep(cep)){
        showCepError();
@@ -61,7 +62,7 @@ function showAddressCard(addressData){
 }
 
 function showMap(coordinates){
-    divmap[0].classList.add("box-map-ativo")
+    divmap[0].classList.add("box-map-ativo");
     builderMap(coordinates);
 }
 
